@@ -11,7 +11,7 @@ style: |
   section > p { margin: 0 0 12px 0; }
   section > ul, section > ol { margin: 0 0 16px 0; }
   section > ul li, section > ol li { margin-bottom: 8px; }
-  table { font-size: 16px; margin: 15px auto; width: 90%; border-collapse: collapse; text-align: center; }
+  table { font-size: 16px; margin: 15px auto; width: 90%; border-collapse: collapse; text-align: center; align-self: center; }
   table th { background-color: #1a3c6e; color: white; padding: 10px; text-align: center; }
   table td { padding: 10px; border-bottom: 1px solid #ddd; text-align: center; }
   strong { color: #c0392b; }
@@ -28,7 +28,7 @@ style: |
 ## 베링거 X32 + SD16 스테이지박스 & P2 유선 인이어 시스템
 
 음향 파트 담당자 보고 자료
-2026년 7월 (수정본)
+2026년 7월 (2차 수정본)
 
 ---
 
@@ -49,8 +49,8 @@ style: |
 | **출력단자** | 8 Ch (XLR) | 8 Ch (XLR) | 8 Ch (XLR) |
 | **울트라넷** | **4개 포트 (허브 내장 / PoE 지원)** | 1개 포트 (단선 아웃) | 1개 포트 (단선 아웃) |
 | **프리앰프** | Midas Designed | Midas Designed | **Midas PRO 프리앰프** |
-| **신품가** | **약 120만 원** | 약 110만 원 | 약 150만 원 |
-| **중고시세** | **약 75만 원** | 약 65만 원 | 약 110만 원 |
+| **신품가** | **648,000원** | 약 110만 원 | 약 150만 원 |
+| **중고시세** | **약 45만 원** | 약 65만 원 | 약 110만 원 |
 
 - **SD16 선택 이유**: 콤보 잭 탑재로 악기 직결 시 **DI Box 예산 절감**, 4개 울트라넷 허브 내장으로 **P16-D 분배기 도입 비용(약 30만 원) 원천 세이브**.
 
@@ -85,13 +85,13 @@ style: |
 
 | 구분 | 품명 및 세부 사양 | 수량 | 신품 단가 | 중고 단가 | 집행 금액 | 비고 |
 |---|---|:---:|:---:|:---:|:---:|---|
-| **장비** | 베링거 SD16 스테이지박스 | 1 | 1,200,000 | 750,000 | **750,000** | A급 중고 구입 (Mule 등) |
+| **장비** | 베링거 SD16 스테이지박스 | 1 | 648,000 | — | **648,000** | 신품 구입 (최저가 반영) |
 | **장비** | 베링거 P2 유선 인이어 앰프 | 4 | 65,000 | 40,000 | **160,000** | 중고 구입 또는 할인 구매 |
 | **선재** | LS전선 Cat5e EtherCON (30m) | 1 | 65,000 | — | **65,000** | 신품 (접지/쉴딩 차폐 필수) |
 | **선재** | 카나레 XLR(F)-XLR(M) 10m | 4 | 15,000 | — | **60,000** | 신품 (SD16 - P2 연결용) |
-| **합계** | **스테이지 박스 + P2 4세트 구축** | | | | **1,035,000 원** | **약 3만 5천 원 초과 (네고 가능)** |
+| **합계** | **스테이지 박스 + P2 4세트 구축** | | | | **933,000 원** | **예산 안 안착 (약 6만 7천 원 절감)** |
 
-<span class="small">※ 예산 절대 엄수 시 P2 수량을 3개로 감축하고 싱어 2인을 공용 믹스(Bus 11)로 결합하여 **990,000원** 집행 가능.</span>
+<span class="small">※ 신품 SD16 스테이지박스 도입 및 4인의 P2 인이어 모니터링 시스템을 100만 원 예산 이내로 완전 구축 가능.</span>
 
 ---
 
