@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>은혜 아니면 · 특송 가사</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@500;700&display=swap');
+:root{--cream:#f8f4ec;--gold:#f6e4ba;--line:#d6b77a}*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#020b17}body{color:var(--cream);font-family:'Noto Sans KR','Apple SD Gothic Neo',sans-serif}#deck{width:100vw;height:100vh;position:relative}.slide{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-start;padding:72px 96px 92px;opacity:0;pointer-events:none;transition:opacity .2s ease;background-image:linear-gradient(90deg,rgba(3,13,26,.80) 0%,rgba(3,13,26,.57) 53%,rgba(3,13,26,.10) 100%),url('./worship-cross-bg.png');background-size:cover;background-position:center}.slide.active{opacity:1;pointer-events:auto}.slide:after{content:'';position:absolute;left:96px;bottom:72px;width:66px;height:2px;background:var(--line);box-shadow:0 0 10px rgba(214,183,122,.5)}.slide:before{content:'✦';position:absolute;top:72px;left:96px;color:var(--line);font-size:16px}h2{max-width:1100px;margin:0;font-family:'Noto Serif KR',serif;font-size:clamp(48px,5.65vw,81px);line-height:1.38;font-weight:700;letter-spacing:.02em;text-shadow:0 2px 16px rgba(0,0,0,.45)}.footer{position:absolute;right:96px;bottom:46px;color:rgba(248,244,236,.65);font-size:15px;letter-spacing:.08em}.hint{position:fixed;right:24px;top:20px;color:rgba(248,244,236,.35);font-size:12px;letter-spacing:.06em;z-index:5}.counter{position:fixed;right:96px;bottom:74px;color:rgba(248,244,236,.55);font-size:14px;z-index:5}@media(max-width:900px){.slide{padding:64px 68px 84px}.slide:before,.slide:after{left:68px}.footer,.counter{right:68px}}
+</style></head>
+<body><main id="deck" aria-label="은혜 아니면 특송 가사">
+<section class="slide active"><h2>어둠 속 헤메이던<br>내 영혼</h2></section>
+<section class="slide"><h2>갈 길 몰라<br>방황할 때에</h2></section>
+<section class="slide"><h2>주의 십자가<br>영광의 그 빛이</h2></section>
+<section class="slide"><h2>나를 향해<br>비추어 주셨네</h2></section>
+<section class="slide"><h2>주홍 빛보다 더<br>붉은 내 죄</h2></section>
+<section class="slide"><h2>그리스도의<br>피로 씻기어</h2></section>
+<section class="slide"><h2>완전한 사랑<br>주님의 은혜로</h2></section>
+<section class="slide"><h2>새 생명<br>주께 얻었네</h2></section>
+<section class="slide"><h2>은혜 아니면<br>나 서지 못하네</h2></section>
+<section class="slide"><h2>십자가의 그 사랑<br>능력 아니면</h2></section>
+<section class="slide"><h2>나 서지 못하네</h2></section>
+<section class="slide"><h2>은혜 아니면<br>나 서지 못하네</h2></section>
+<section class="slide"><h2>놀라운 사랑<br>그 은혜 아니면</h2></section>
+<section class="slide"><h2>나 서지 못하네</h2></section>
+<section class="slide"><h2>나의 노력과<br>의지가 아닌</h2></section>
+<section class="slide"><h2>오직 주님의<br>그 뜻 안에서</h2></section>
+<section class="slide"><h2>의로운 자라<br>내게 말씀 하셨네</h2></section>
+<section class="slide"><h2>완전하신 그 은혜로</h2></section>
+<section class="slide"><h2>은혜 아니면<br>나 서지 못하네</h2></section>
+<section class="slide"><h2>십자가의 그 사랑<br>능력 아니면</h2></section>
+<section class="slide"><h2>나 서지 못하네</h2></section>
+<section class="slide"><h2>은혜 아니면<br>나 서지 못하네</h2></section>
+<section class="slide"><h2>놀라운 사랑<br>그 은혜 아니면</h2></section>
+<section class="slide"><h2>나 서지 못하네</h2></section>
+<section class="slide"><h2>이제 나<br>사는 것 아니요</h2></section>
+<section class="slide"><h2>오직 예수 내 안에<br>살아 계시니</h2></section>
+<section class="slide"><h2>나의 능력 아닌<br>주의 능력으로</h2></section>
+<section class="slide"><h2>이제 주와<br>함께 살리라</h2></section>
+<section class="slide"><h2>오직 은혜로<br>나 살아 가리라</h2></section>
+<section class="slide"><h2>십자가의 그 사랑<br>주의 능력으로</h2></section>
+<section class="slide"><h2>나는 서리라</h2></section>
+<section class="slide"><h2>주의 은혜로<br>나 살아가리라</h2></section>
+<section class="slide"><h2>십자가의 사랑<br>그 능력으로 나 살리라</h2></section>
+<section class="slide"><h2>주 은혜로<br>나 살리라</h2></section>
+</main><div class="hint">← → / Space · F 전체화면</div><div class="counter" aria-live="polite"></div>
+<script>const slides=[...document.querySelectorAll('.slide')],counter=document.querySelector('.counter');let index=0;function show(n){index=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,i)=>s.classList.toggle('active',i===index));counter.textContent=`${index+1} / ${slides.length}`}function fullScreen(){if(!document.fullscreenElement)document.documentElement.requestFullscreen?.();else document.exitFullscreen?.()}document.addEventListener('keydown',e=>{if(['ArrowRight',' ','PageDown'].includes(e.key)){e.preventDefault();show(index+1)}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(index-1)}else if(e.key.toLowerCase()==='f')fullScreen();else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1)});document.addEventListener('click',e=>e.clientX>innerWidth*.55?show(index+1):show(index-1));show(0)</script>
+</body></html>
